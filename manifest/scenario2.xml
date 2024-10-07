@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+		<members>Account.Max_Opportunity__c</members>
+		<name>CustomField</name>
+	</types>
+    <types>
+		<members>OppNameChange</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>OppNameChangeTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+    <version>61.0</version>
+</Package>
