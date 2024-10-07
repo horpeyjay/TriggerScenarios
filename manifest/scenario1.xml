@@ -14,10 +14,6 @@
 	</types>
     <types>
 		<members>Tech_Firm__c-Tech Firm Layout.layout</members>
-		<name>Layout</name>
-	</types>
-    <types>
-		<members>Tech_Firm__c-Tech Firm Layout.layout</members>
         <members>Employee__c-en_US.objectTranslation</members>
 		<name>CustomObjectTranslation</name>
 	</types>
