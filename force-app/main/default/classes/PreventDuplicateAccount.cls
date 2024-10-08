@@ -1,5 +1,5 @@
 public with sharing class PreventDuplicateAccount {
-//Scenario 5: prevent duplication on Account based on name
+//Scenario 9: prevent duplication on Account based on name
     //based on insert
     public static void duplicate(List<Account> accs){
         Set<String> accName = new Set<String>();
