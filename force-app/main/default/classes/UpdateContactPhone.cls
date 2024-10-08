@@ -1,5 +1,5 @@
 public with sharing class UpdateContactPhone {
-    //Scenario 3: update contact phone with account phone
+    //Scenario 8: update contact phone with account phone
     public static void updateConPhone(Map<Id, Account> newAccMap, Map<Id, Account> oldAccMap) {
         // Define a set to hold account Ids where the phone number has changed
         Set<Id> accountIds = new Set<Id>();
