@@ -22,7 +22,7 @@ public with sharing class AccountProductUpdate {
             }
 
             //iterate over aggregate query for opp line item
-            for(AggregateResult ar : [Select COUNT(id) cid, Opportunity.AccountId From OpportunityLineItem where Opportunity.AccountId != null and Opportunity.AccountId In : countOpps.keySet() Group by Opportunity.AccountId]){
+            for(AggregateResult ar : [Select COUNT(id) cid, Opportunity.AccountId From OpportunityLineItem where Opportunity.AccountId != null and ListPrice > 50000 and Opportunity.AccountId In : countOpps.keySet() Group by Opportunity.AccountId]){
                 countMap.put((Id)ag.get('AccountId'), (Decimal)ag.get('cid'));
             }
 
