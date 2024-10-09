@@ -8,6 +8,13 @@
 		<members>Product2</members>
 		<name>CustomObject</name>
   	</types>
-
+    <types>
+		<members>CheckProductFamily</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>CheckProductFamily</members>
+		<name>ApexTrigger</name>
+	</types>
 	<version>60.0</version>
 </Package>
