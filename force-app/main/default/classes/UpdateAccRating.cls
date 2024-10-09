@@ -5,7 +5,7 @@ public with sharing class UpdateAccRating {
         Set<Id> accId = new set<Id>();
 
         //List to store account to update
-        Map<Id, Account> accLists = new Map<Account>();
+        Map<Id, Account> accLists = new Map<Id, Account>();
 
         //iterate over the list of opportunties
         if(!oppList.isEmpty()){
