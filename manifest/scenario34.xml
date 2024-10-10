@@ -9,7 +9,8 @@
 		<name>ApexTrigger</name>
 	</types>
 	<types>
-		<members>Contact.Primary_Contact__c</members>
+		<members>User.Assign_Manager__c</members>
+		<members>User.Team__c</members>
 		<name>CustomField</name>
 	</types>
     <version>61.0</version>

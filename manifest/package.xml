@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<!--<types>
-		<members>Account.Active__c</members>
-		<members>Contact.Lead_Contact__c</members>
-		<name>CustomField</name>
-	</types>-->
 	<types>
+		<members>User.Assign_Manager__c</members>
+		<members>User.Team__c</members>
+		<name>CustomField</name>
+	</types>
+	<!--<types>
 		<members>Account.Lead</members>
 		<members>Account.Customer</members>
 		<members>Account.Partner</members>
@@ -13,6 +13,6 @@
 		<members>Contact.Customer</members>
 		<members>Contact.Partner</members>
 		<name>RecordType</name>
-	</types>
+	</types>-->
 	<version>60.0</version>
 </Package>
