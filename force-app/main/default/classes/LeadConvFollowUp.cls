@@ -80,7 +80,7 @@ public with sharing class LeadConvFollowUp {
             }
         }
         if(!taskList.isEmpty()){
-            update taskList;
+            insert taskList;
         }
     }
 }
