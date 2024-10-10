@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<types>
-		<members>Account.Active__c</members>
-		<members>Contact.Do_Not_Contact__c</members>
-		<name>CustomField</name>
-	</types>
     <types>
-		<members>IsAccountActive</members>
+		<members>AccStatusUpdateCaseClose</members>
 		<name>ApexClass</name>
 	</types>
     <types>
-		<members>IsAccountActive</members>
+		<members>AccStatusUpdateCaseClose</members>
 		<name>ApexTrigger</name>
 	</types>
     <version>61.0</version>
